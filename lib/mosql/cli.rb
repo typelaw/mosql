@@ -121,6 +121,7 @@ module MoSQL
     end
 
     def connect_mongo
+      puts 'calling mongoClient'
       @mongo = Mongo::Client.new(options[:mongo])
       config = @mongo['admin'].command(:ismaster => 1)
       if !config['setName'] && !options[:skip_tail]
