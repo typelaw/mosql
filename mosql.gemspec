@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "mongoriver", "0.4"
 
   gem.add_runtime_dependency "mongo", "2.1"
-  gem.add_runtime_dependency "bson", "3.26"
+  gem.add_runtime_dependency "bson", "3.2.6"
   gem.add_runtime_dependency "bson_ext"
 
   gem.add_development_dependency "minitest"
