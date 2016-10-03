@@ -130,7 +130,7 @@ module MoSQL
       #   log.warn("Pass `--skip-tail' to suppress this warning.")
       #   options[:skip_tail] = true
       # end
-      options[:service] ||= config['setName']
+      options[:service]
     end
 
     def connect_sql
